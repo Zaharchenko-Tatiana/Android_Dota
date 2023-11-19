@@ -24,7 +24,7 @@ private val DarkColorScheme = darkColorScheme(
 private val LightColorScheme = lightColorScheme(
     primary = Fon,
     secondary = C_text,
-    tertiary = Pink40
+    tertiary = Hasht_text
 
     /* Other default colors to override
     background = Color(0xFFFFFBFE),

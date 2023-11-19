@@ -7,11 +7,10 @@ import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.layout.ContentScale
 import androidx.compose.ui.res.painterResource
-import androidx.compose.ui.tooling.preview.Preview
 
 
 @Composable
-fun ImageMain(){
+fun ImageMain() {
 
     Image(
         painter = painterResource(id = R.drawable.main_img), contentDescription = "Main_im",
