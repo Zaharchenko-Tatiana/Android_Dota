@@ -11,7 +11,7 @@ import com.example.android_dota.ui.theme.description
 
 @Composable
 fun text() {
-    Row(modifier = Modifier.padding(start = 50.dp, top = 30.dp, end = 27.dp)) {
+    Row(modifier = Modifier.padding(start = 27.dp, top = 30.dp, end = 27.dp)) {
         Text(
             text = "Dota 2 is a multiplayer online battle arena (MOBA)" +
                     " game which has two teams of five players compete to collectively" +

@@ -18,7 +18,7 @@ import androidx.compose.ui.unit.dp
 fun screenshots() {
     Row(
         modifier = Modifier
-            .padding(start = 50.dp, top = 15.dp)
+            .padding(start = 27.dp, top = 15.dp)
             .height(128.dp)
             .fillMaxWidth(),
         horizontalArrangement = Arrangement.Center

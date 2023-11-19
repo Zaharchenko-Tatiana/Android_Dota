@@ -17,10 +17,10 @@ import com.example.android_dota.ui.theme.Hasht_text
 
 @Composable
 fun hashtags() {
-    Row(modifier = Modifier.fillMaxWidth()) {
+    Row(modifier = Modifier.fillMaxWidth().padding(top = 16.dp)) {
         Box(
             modifier = Modifier
-                .padding(start = 54.dp)
+                .padding(start = 30.dp)
                 .clip(RoundedCornerShape(100))
                 .background(Hasht_fon),
         ) {

@@ -3,6 +3,6 @@
 
     <style name="Theme.Android_Dota" parent="android:Theme.Material.Light.NoActionBar">
     <item name ="android:fontFamily">@font/skfont</item>item>
-    </style>>
+    </style>
 
 </resources>

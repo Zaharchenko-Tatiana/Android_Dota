@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">Android_Dota</string>
+    <string name="Install_button"><font fgcolor="#050B18">Install</font>></string> //
 </resources>

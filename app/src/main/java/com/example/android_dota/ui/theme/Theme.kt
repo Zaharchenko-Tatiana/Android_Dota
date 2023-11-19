@@ -16,15 +16,15 @@ import androidx.compose.ui.platform.LocalView
 import androidx.core.view.WindowCompat
 
 private val DarkColorScheme = darkColorScheme(
-    primary = Fon,
-    secondary = C_text,
-    tertiary = Pink80
+    primary = button,
+    secondary = button,
+    tertiary = button
 )
 
 private val LightColorScheme = lightColorScheme(
-    primary = Fon,
-    secondary = C_text,
-    tertiary = Hasht_text
+    primary = button,
+    secondary = button,
+    tertiary = button
 
     /* Other default colors to override
     background = Color(0xFFFFFBFE),
@@ -38,7 +38,7 @@ private val LightColorScheme = lightColorScheme(
 )
 
 @Composable
-fun Android_DotaTheme(
+fun Android_DotTheme(
     darkTheme: Boolean = isSystemInDarkTheme(),
     // Dynamic color is available on Android 12+
     dynamicColor: Boolean = true,
